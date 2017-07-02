@@ -13,11 +13,11 @@ return [
     |
     */
 
-    'title' => 'AdminLTE 2',
+    'title' => 'Law Office',
 
-    'title_prefix' => '',
+    'title_prefix' => 'OpenLAW.id - ',
 
-    'title_postfix' => '',
+    'title_postfix' => ' Software',
 
     /*
     |--------------------------------------------------------------------------
@@ -30,9 +30,9 @@ return [
     |
     */
 
-    'logo' => '<b>Admin</b>LTE',
+    'logo' => 'el-<b>PID</b>SUS',
 
-    'logo_mini' => '<b>A</b>LT',
+    'logo_mini' => '<b>DIK</b>',
 
     /*
     |--------------------------------------------------------------------------
@@ -45,7 +45,7 @@ return [
     |
     */
 
-    'skin' => 'blue',
+    'skin' => 'green-light',
 
     /*
     |--------------------------------------------------------------------------
@@ -71,7 +71,7 @@ return [
     |
     */
 
-    'collapse_sidebar' => false,
+    'collapse_sidebar' => true,
 
     /*
     |--------------------------------------------------------------------------
@@ -93,6 +93,8 @@ return [
 
     'login_url' => 'login',
 
+    'admin-login_url' => 'admin-login',
+
     'register_url' => 'register',
 
     /*
@@ -108,31 +110,122 @@ return [
     */
 
     'menu' => [
-        'MAIN NAVIGATION',
+        'MENU UTAMA',
+        [
+            'text'        => 'Dashboard',
+            'url'         => 'home',
+            'icon'        => 'dashboard',
+/*
+            'submenu' => [
+                [
+                    'text' => 'Dashboard I',
+                    'url'  => 'home',
+                ],
+                [
+                    'text' => 'Dashboard II',
+                    'url'  => 'dashboard2',
+                ],
+            ],
+*/        ],
+        [
+            'text'        => 'Proses Hukum',
+            'url'         => '#',
+            'icon'        => 'balance-scale',
+            'submenu' => [
+                [
+                    'text' => 'Daftar Perkara',
+                    'url'  => '#',
+                    'icon' => 'list-ol',
+                    'label'       => 4,
+                    'label_color' => 'danger',
+                    'submenu' => [
+                        [
+                            'text' => 'RP-1 Baru',
+                            'url'  => 'rp1',
+                            'icon' => 'plus-square',
+                        ],
+                        [
+                            'text' => 'RP-2 LID',
+                            'url'  => 'rp2',
+                            'icon' => 'list-ol',
+                            'label'       => 4,
+                            'label_color' => 'warning',
+                        ],
+                        [
+                            'text' => 'RP-3 DIK Umum',
+                            'url'  => 'rp3mum',
+                            'icon' => 'list-ol',
+                            'label'       => 4,
+                            'label_color' => 'warning',
+                        ],
+                        [
+                            'text' => 'RP-3 DIK Khusus',
+                            'url'  => 'rp3sus',
+                            'icon' => 'list-ol',
+                            'label'       => 4,
+                            'label_color' => 'warning',
+                        ],
+                    ],
+                ],
+                [
+                    'text' => 'Benda Sitaan',
+                    'url'  => 'rb1',
+                    'icon' => 'cubes',
+                ],
+                [
+                    'text' => 'Daftar Tahanan',
+                    'url'  => 'rt1',
+                    'icon' => 'odnoklassniki',
+                    'label'       => 4,
+                    'label_color' => 'danger',
+                ],
+            ],
+        ],
+        [
+            'text'        => 'Administrasi Data',
+            'url'         => '#',
+            'icon'        => 'database',
+            'submenu' => [
+                [
+                    'text' => 'Jaksa / Personal',
+                    'url'  => '#',
+                    'icon' => 'user-md',
+                ],
+                [
+                    'text' => 'Kategori Subyek',
+                    'url'  => '#',
+                    'icon' => 'user-secret',
+                ],
+                [
+                    'text' => 'Pasal & UU',
+                    'url'  => '#',
+                    'icon' => 'book',
+                ],
+            ],
+        ],
         [
             'text' => 'Blog',
             'url'  => 'admin/blog',
             'can'  => 'manage-blog',
         ],
         [
-            'text'        => 'Pages',
-            'url'         => 'admin/pages',
-            'icon'        => 'file',
-            'label'       => 4,
-            'label_color' => 'success',
+            'text'        => 'Kelola Akun',
+            'url'         => 'home',
+            'icon'        => 'gear',
+            'submenu' => [
+                [
+                    'text' => 'Profile',
+                    'url'  => 'settings',
+                    'icon' => 'user',
+                ],
+                [
+                    'text' => 'Change Password',
+                    'url'  => 'settings',
+                    'icon' => 'lock',
+                ],
+            ],
         ],
-        'ACCOUNT SETTINGS',
-        [
-            'text' => 'Profile',
-            'url'  => 'admin/settings',
-            'icon' => 'user',
-        ],
-        [
-            'text' => 'Change Password',
-            'url'  => 'admin/settings',
-            'icon' => 'lock',
-        ],
-        [
+/*        [
             'text'    => 'Multilevel',
             'icon'    => 'share',
             'submenu' => [
@@ -170,7 +263,12 @@ return [
                 ],
             ],
         ],
-        'LABELS',
+*/        /*[
+            'text'        => 'Pages',
+            'url'         => 'admin/pages',
+            'icon'        => 'file',
+        ],
+        */'LABELS',
         [
             'text'       => 'Important',
             'icon_color' => 'red',
