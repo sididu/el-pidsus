@@ -17,6 +17,16 @@ class ObyekController extends Controller
         return view('obyek.obyek_list');
     }
 
+    public function geledah()
+    {
+        return view('obyek.obyek_create');
+    }
+
+    public function erb1()
+    {
+        return view('obyek.obyek_edit');
+    }
+
     /**
      * Show the form for creating a new resource.
      *

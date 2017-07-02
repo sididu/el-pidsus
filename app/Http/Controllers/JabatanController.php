@@ -17,6 +17,16 @@ class JabatanController extends Controller
         return view('jabatan.jabatan_list');
     }
 
+    public function jabatan_create()
+    {
+        return view('jabatan.jabatan_create');
+    }
+
+    public function jabatan_edit()
+    {
+        return view('jabatan.jabatan_edit');
+    }
+
     /**
      * Show the form for creating a new resource.
      *

@@ -10,4 +10,14 @@ class Rp3susController extends Controller
 		{
 		    return view('rp3sus.rp3sus_list');
 		}
+
+		public function frp3sus()
+		{
+		    return view('rp3sus.rp3sus_create');
+		}
+
+		public function erp3sus()
+		{
+		    return view('rp3sus.rp3sus_edit');
+		}
 }

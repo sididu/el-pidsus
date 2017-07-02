@@ -11,4 +11,12 @@ class Rp1Controller extends Controller
 		{
 		    return view('rp1.rp1_list');
 		}
+		public function frp1()
+		{
+		    return view('rp1.rp1_create');
+		}
+		public function erp1()
+		{
+		    return view('rp1.rp1_edit');
+		}
 }

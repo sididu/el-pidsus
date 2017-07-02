@@ -17,6 +17,21 @@ class SubyekController extends Controller
         return view('subyek.subyek_list');
     }
 
+    public function frt1()
+    {
+        return view('subyek.subyek_tsk_create');
+    }
+
+    public function frt2()
+    {
+        return view('subyek.subyek_tahan_create');
+    }
+
+    public function ert1()
+    {
+        return view('subyek.subyek_edit');
+    }
+
     /**
      * Show the form for creating a new resource.
      *

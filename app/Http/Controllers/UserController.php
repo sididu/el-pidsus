@@ -17,6 +17,17 @@ class UserController extends Controller
         return view('user.user_list');
     }
 
+    public function fjaksa()
+    {
+        return view('user.user_create');
+    }
+
+    public function ejaksa()
+    {
+        return view('user.user_edit');
+    }
+
+
     /**
      * Show the form for creating a new resource.
      *
