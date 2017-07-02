@@ -49,7 +49,7 @@ Route::get('jabatan_edit', 'JabatanController@jabatan_edit');
 
 Route::get('obyek', 'ObyekController@index');
 
-Route::get('frb1', 'ObyekController@frb1');
+Route::get('geledah', 'ObyekController@geledah');
 
 Route::get('erb1', 'ObyekController@erb1');
 
@@ -151,11 +151,11 @@ Subyek [Tersangka] Routes
 
 Route::get('subyek', 'SubyekController@index');
 
-Route::get('frt1', 'ObyekController@frt1');
+Route::get('frt1', 'SubyekController@frt1');
 
-Route::get('frt2', 'ObyekController@frt2');
+Route::get('frt2', 'SubyekController@frt2');
 
-Route::get('efrt2', 'ObyekController@efrt2');
+Route::get('ert1', 'SubyekController@ert1');
 
 /*
 |--------------------------------------------------------------------------
@@ -170,8 +170,8 @@ Route::get('efrt2', 'ObyekController@efrt2');
 
 Route::get('user', 'UserController@index');
 
-Route::get('user_create', 'UserController@user_create');
+Route::get('fjaksa', 'UserController@fjaksa');
 
-Route::get('user_edit', 'UserController@user_edit');
+Route::get('ejaksa', 'UserController@ejaksa');
 
 
