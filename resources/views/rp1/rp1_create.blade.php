@@ -2,6 +2,8 @@
 
 @section('title', 'Dashboard')
 
+<script src="{{ asset('/js/tinymce-form.js') }}"></script>
+
 @section('content_header')
     <div><h3><a href="home"><img class="push-left" src="dist/img/logo-kejaksaan.png" width="100"></a>
   Dashboard
@@ -23,6 +25,7 @@
 
 
 
+    <kasus></kasus>
     <p class="text-center"><img src="dist/img/UnderConstruct.png" alt=""></p>
     
 
