@@ -21,20 +21,20 @@ Route::get('/home', 'HomeController@index')->name('home');
 
 Route::get('jabatan', 'JabatanController@index');
 
-Route::get('Obyek', 'ObyekController@index');
+Route::get('obyek', 'ObyekController@index');
 
-Route::get('Pasal', 'PasalController@index');
+Route::get('pasal', 'PasalController@index');
 
-Route::get('Rp1', 'Rp1Controller@index');
+Route::get('rp1', 'Rp1Controller@index');
 
-Route::get('Rp2', 'Rp2Controller@index');
+Route::get('rp2', 'Rp2Controller@index');
 
-Route::get('Rp3mum', 'Rp3mumController@index');
+Route::get('rp3mum', 'Rp3mumController@index');
 
-Route::get('Rp3sus', 'Rp3susController@index');
+Route::get('rp3sus', 'Rp3susController@index');
 
-Route::get('Subyek', 'SubyekController@index');
+Route::get('subyek', 'SubyekController@index');
 
-Route::get('User', 'UserController@index');
+Route::get('user', 'UserController@index');
 
 

@@ -13,7 +13,7 @@
 @section('content')
 <div class="box box-success">
   <div class="box-header with-border">
-  <h3 class="box-title text-uppercase">DAFTAR KASUS BARU <small>[RP1]</small></h3>
+  <h3 class="box-title text-uppercase">Kategori Jabatan <small>[Tersangka]</small></h3>
     <div class="pull-right">
       <a href="frp1" class="btn btn-defaul btn-xs"> Tambah Kasus &nbsp; <span class="glyphicon glyphicon-plus"></span></a>
     </div>

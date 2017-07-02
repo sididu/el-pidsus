@@ -169,12 +169,12 @@ return [
                 ],
                 [
                     'text' => 'Benda Sitaan',
-                    'url'  => 'rb1',
+                    'url'  => 'obyek',
                     'icon' => 'cubes',
                 ],
                 [
                     'text' => 'Daftar Tahanan',
-                    'url'  => 'rt1',
+                    'url'  => 'subyek',
                     'icon' => 'odnoklassniki',
                     'label'       => 4,
                     'label_color' => 'danger',
@@ -188,17 +188,17 @@ return [
             'submenu' => [
                 [
                     'text' => 'Jaksa / Personal',
-                    'url'  => '#',
+                    'url'  => 'user',
                     'icon' => 'user-md',
                 ],
                 [
                     'text' => 'Kategori Subyek',
-                    'url'  => '#',
+                    'url'  => 'jabatan',
                     'icon' => 'user-secret',
                 ],
                 [
                     'text' => 'Pasal & UU',
-                    'url'  => '#',
+                    'url'  => 'pasal',
                     'icon' => 'book',
                 ],
             ],
