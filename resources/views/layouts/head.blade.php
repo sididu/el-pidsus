@@ -19,7 +19,6 @@
     <!-- Font-Awesome -->
     <link href="{{asset('css/font-awesome.css')}}" type="text/css">
 
-    
 
 
     <!-- Bootstrap 3.3.6 -->
@@ -37,7 +36,8 @@
     <!-- TinyMCE -->
     <script src='{{ asset('dist/js/tinymce/tinymce.min.js') }}'></script>
 
-  
+
+
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>

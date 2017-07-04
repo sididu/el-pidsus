@@ -22,12 +22,12 @@
         <div class="panel-footer">Panel footer</div>
       </div><!-- /.box -->
     </div><!-- /.content -->
+    @yield('script')
 
   </div><!-- /.content-wrapper -->
   @include('layouts.footer')
 </div><!-- /.wrapper -->
 
-    @yield('script')
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>

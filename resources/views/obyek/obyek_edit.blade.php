@@ -14,7 +14,7 @@
 
 @section('materi')
 
-        <div class="row">
+<div class="row">
  <div class="col-lg-4 col-md-4 col-sm-12">
    <!-- select -->
    <div class="form-group">
@@ -93,12 +93,13 @@
 </div>
 </div>
 </div>
-      
+
 @stop
 
 @section('script')
 
-	<!-- Form Kasus Posisi -->
+
+ <!-- Form Kasus -->
 	<script src='{{ asset('dist/js/kasus_posisi.js') }}'></script>
 
 @endsection
