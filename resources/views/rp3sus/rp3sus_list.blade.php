@@ -24,22 +24,22 @@
                 </tr>
                 <tr>
                   <td>
-                  @include('partials._kasusrp3muma')
+                  @include('partials._kasusrp3susa')
                   </td>
                 </tr>
                 <tr>
                   <td>
-                  @include('partials._kasusrp3mumb')
+                  @include('partials._kasusrp3susb')
                   </td>
                 </tr>
                 <tr>
                   <td>
-                  @include('partials._kasusrp3mumc')
+                  @include('partials._kasusrp3susc')
                   </td>
                 </tr>
                 <tr>
                   <td>
-                  @include('partials._kasusrp3mumd')
+                  @include('partials._kasusrp3susd')
                   </td>
                 </tr>
               </tbody></table>
@@ -54,5 +54,8 @@
 @stop
 
 @section('script')
+
+  <!-- Form Kasus Posisi -->
+  <script src='{{ asset('dist/js/kasus_posisi.js') }}'></script>
 
 @endsection

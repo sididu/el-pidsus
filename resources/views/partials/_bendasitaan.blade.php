@@ -12,7 +12,7 @@
                   <th>Tanggal</th>
                   <th>Tersangka</th>
                   <th>Benda Sitaan</th>
-                  <th><a href="geledah" class="btn btn-success btn-xs"><i class="glyphicon glyphicon-plus
+                  <th><a href="geledah" class="btn btn-danger btn-sm"><i class="glyphicon glyphicon-plus
 "> </i>&nbsp;SP Geledah</a></th>
                 </tr>
                 <tr>
@@ -25,14 +25,14 @@
                   consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
                   cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
                   proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</td>
-                  <td><i class="fa fa-edit"> </i> Rp. xxx.xxx.xxx </td>
+                  <td><a href="erb1" class="btn btn-success btn-xs"> <i class="fa fa-edit"> &nbsp; </i> Berita Acara</a><p> Rp. xxx.xxx.xxx </p></td>
                 </tr>
                 <tr>
                   <td>219</td>
                   <td>11-7-2014</td>
                   <td>Alexander Pierce</td>
                   <td>Bacon ipsum dolor sit amet salami venison chicken flank fatback doner.</td>
-                  <td><i class="fa fa-edit"> </i> Rp. xxx.xxx.xxx </td>
+                  <td><a href="erb1" class="btn btn-success btn-xs"> <i class="fa fa-edit"> &nbsp; </i> Berita Acara</a><p> Rp. xxx.xxx.xxx </p></td>
                 </tr>
                 <tr>
                   <td>657</td>
@@ -40,14 +40,14 @@
                   <td>Bob Doe</td>
                   <td>Laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
                   proident, sunt in culpa qui officia deserunt mollit anim id est laborum..</td>
-                  <td><i class="fa fa-edit"> </i> Rp. xxx.xxx.xxx </td>
+                  <td><a href="erb1" class="btn btn-success btn-xs"> <i class="fa fa-edit"> &nbsp; </i> Berita Acara</a><p> Rp. xxx.xxx.xxx </p></td>
                 </tr>
                 <tr>
                   <td>175</td>
                   <td>11-7-2014</td>
                   <td>Mike Doe</td>
                   <td>Bacon ipsum dolor sit amet salami venison chicken flank fatback doner.</td>
-                  <td><i class="fa fa-edit"> </i> Rp. xxx.xxx.xxx </td>
+                  <td><a href="erb1" class="btn btn-success btn-xs"> <i class="fa fa-edit"> &nbsp; </i> Berita Acara</a><p> Rp. xxx.xxx.xxx </p></td>
                 </tr>
               </tbody></table>
               </div>
@@ -71,28 +71,28 @@
                   <td>11-7-2014</td>
                   <td>John Doe</td>
                   <td>Bacon ipsum dolor sit amet salami venison chicken flank fatback doner.</td>
-                  <td><i class="fa fa-edit"> </i> Rp. xxx.xxx.xxx </td>
+                  <td><a href="erb1" class="btn btn-success btn-xs"> <i class="fa fa-edit"> &nbsp; </i> Berita Acara</a><p> Rp. xxx.xxx.xxx </p></td>
                 </tr>
                 <tr>
                   <td>219</td>
                   <td>11-7-2014</td>
                   <td>Alexander Pierce</td>
                   <td>Bacon ipsum dolor sit amet salami venison chicken flank fatback doner.</td>
-                  <td><i class="fa fa-edit"> </i> Rp. xxx.xxx.xxx </td>
+                  <td><a href="erb1" class="btn btn-success btn-xs"> <i class="fa fa-edit"> &nbsp; </i> Berita Acara</a><p> Rp. xxx.xxx.xxx </p></td>
                 </tr>
                 <tr>
                   <td>657</td>
                   <td>11-7-2014</td>
                   <td>Bob Doe</td>
                   <td>Bacon ipsum dolor sit amet salami venison chicken flank fatback doner.</td>
-                  <td><i class="fa fa-edit"> </i> Rp. xxx.xxx.xxx </td>
+                  <td><a href="erb1" class="btn btn-success btn-xs"> <i class="fa fa-edit"> &nbsp; </i> Berita Acara</a><p> Rp. xxx.xxx.xxx </p></td>
                 </tr>
                 <tr>
                   <td>175</td>
                   <td>11-7-2014</td>
                   <td>Mike Doe</td>
                   <td>Bacon ipsum dolor sit amet salami venison chicken flank fatback doner.</td>
-                  <td><i class="fa fa-edit"> </i> Rp. xxx.xxx.xxx </td>
+                  <td><a href="erb1" class="btn btn-success btn-xs"> <i class="fa fa-edit"> &nbsp; </i> Berita Acara</a><p> Rp. xxx.xxx.xxx </p></td>
                 </tr>
               </tbody></table>
 			</div>
@@ -121,28 +121,28 @@
                   consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
                   cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
                   proident, sunt in culpa qui officia deserunt mollit anim id est laborum..</td>
-                  <td><i class="fa fa-edit"> </i> Rp. xxx.xxx.xxx </td>
+                  <td><a href="erb1" class="btn btn-success btn-xs"> <i class="fa fa-edit"> &nbsp; </i> Berita Acara</a><p> Rp. xxx.xxx.xxx </p></td>
                 </tr>
                 <tr>
                   <td>219</td>
                   <td>11-7-2014</td>
                   <td>Alexander Pierce</td>
                   <td>Bacon ipsum dolor sit amet salami venison chicken flank fatback doner.</td>
-                  <td><i class="fa fa-edit"> </i> Rp. xxx.xxx.xxx </td>
+                  <td><a href="erb1" class="btn btn-success btn-xs"> <i class="fa fa-edit"> &nbsp; </i> Berita Acara</a><p> Rp. xxx.xxx.xxx </p></td>
                 </tr>
                 <tr>
                   <td>657</td>
                   <td>11-7-2014</td>
                   <td>Bob Doe</td>
                   <td>Bacon ipsum dolor sit amet salami venison chicken flank fatback doner.</td>
-                  <td><i class="fa fa-edit"> </i> Rp. xxx.xxx.xxx </td>
+                  <td><a href="erb1" class="btn btn-success btn-xs"> <i class="fa fa-edit"> &nbsp; </i> Berita Acara</a><p> Rp. xxx.xxx.xxx </p></td>
                 </tr>
                 <tr>
                   <td>175</td>
                   <td>11-7-2014</td>
                   <td>Mike Doe</td>
                   <td>Bacon ipsum dolor sit amet salami venison chicken flank fatback doner.</td>
-                  <td><i class="fa fa-edit"> </i> Rp. xxx.xxx.xxx </td>
+                  <td><a href="erb1" class="btn btn-success btn-xs"> <i class="fa fa-edit"> &nbsp; </i> Berita Acara</a><p> Rp. xxx.xxx.xxx </p></td>
                 </tr>
               </tbody></table>
 		</div>

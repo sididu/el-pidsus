@@ -34,7 +34,7 @@
       <td></td>
       <td>
         <div class="btn-group-vertical pull-right" role="group" aria-label="...">
-          <a href='#' class="btn btn-default btn-xs"><i class="glyphicon glyphicon-pencil"></i></a>
+          <a href='erp1' class="btn btn-default btn-xs"><i class="glyphicon glyphicon-pencil"></i></a>
           <a href='#' class="btn btn-default btn-xs"><i class="glyphicon glyphicon-minus-sign"></i></a>
           <a href='frp2' class="btn btn-success btn-xs"><span class="glyphicon glyphicon-share-alt"></span> Lidik</a>
         </div>
@@ -46,7 +46,7 @@
       <td></td>
       <td>
         <div class="btn-group-vertical pull-right" role="group" aria-label="...">
-          <a href='#' class="btn btn-default btn-xs"><i class="glyphicon glyphicon-pencil"></i></a>
+          <a href='erp1' class="btn btn-default btn-xs"><i class="glyphicon glyphicon-pencil"></i></a>
           <a href='#' class="btn btn-default btn-xs"><i class="glyphicon glyphicon-minus-sign"></i></a>
           <a href='frp2' class="btn btn-success btn-xs"><i class="glyphicon glyphicon-share-alt"></i> Lidik</a>
         </div>
@@ -58,7 +58,7 @@
       <td></td>
       <td>
         <div class="btn-group-vertical pull-right" role="group" aria-label="...">
-          <a href='#' class="btn btn-default btn-xs"><i class="glyphicon glyphicon-pencil"></i></a>
+          <a href='erp1' class="btn btn-default btn-xs"><i class="glyphicon glyphicon-pencil"></i></a>
           <a href='#' class="btn btn-default btn-xs"><i class="glyphicon glyphicon-minus-sign"></i></a>
           <a href='frp2' class="btn btn-success btn-xs"><i class="glyphicon glyphicon-share-alt"></i> Lidik</a>
         </div>
@@ -70,7 +70,7 @@
       <td></td>
       <td>
         <div class="btn-group-vertical pull-right" role="group" aria-label="...">
-          <a href='#' class="btn btn-default btn-xs"><i class="glyphicon glyphicon-pencil"></i></a>
+          <a href='erp1' class="btn btn-default btn-xs"><i class="glyphicon glyphicon-pencil"></i></a>
           <a href='#' class="btn btn-default btn-xs"><i class="glyphicon glyphicon-minus-sign"></i></a>
           <a href='frp2' class="btn btn-success btn-xs"><i class="glyphicon glyphicon-share-alt"></i> Lidik</a>
         </div>
@@ -82,7 +82,7 @@
       <td></td>
       <td>
         <div class="btn-group-vertical pull-right" role="group" aria-label="...">
-          <a href='#' class="btn btn-default btn-xs"><i class="glyphicon glyphicon-pencil"></i></a>
+          <a href='erp1' class="btn btn-default btn-xs"><i class="glyphicon glyphicon-pencil"></i></a>
           <a href='#' class="btn btn-default btn-xs"><i class="glyphicon glyphicon-minus-sign"></i></a>
           <a href='frp2' class="btn btn-success btn-xs"><i class="glyphicon glyphicon-share-alt"></i> Lidik</a>
         </div>
@@ -94,7 +94,7 @@
       <td></td>
       <td>
         <div class="btn-group-vertical pull-right" role="group" aria-label="...">
-          <a href='#' class="btn btn-default btn-xs"><i class="glyphicon glyphicon-pencil"></i></a>
+          <a href='erp1' class="btn btn-default btn-xs"><i class="glyphicon glyphicon-pencil"></i></a>
           <a href='#' class="btn btn-default btn-xs"><i class="glyphicon glyphicon-minus-sign"></i></a>
           <a href='frp2' class="btn btn-success btn-xs"><i class="glyphicon glyphicon-share-alt"></i> Lidik</a>
         </div>
@@ -106,7 +106,7 @@
       <td></td>
       <td>
         <div class="btn-group-vertical pull-right" role="group" aria-label="...">
-          <a href='#' class="btn btn-default btn-xs"><i class="glyphicon glyphicon-pencil"></i></a>
+          <a href='erp1' class="btn btn-default btn-xs"><i class="glyphicon glyphicon-pencil"></i></a>
           <a href='#' class="btn btn-default btn-xs"><i class="glyphicon glyphicon-minus-sign"></i></a>
           <a href='frp2' class="btn btn-success btn-xs"><i class="glyphicon glyphicon-share-alt"></i> Lidik</a>
         </div>
@@ -118,7 +118,7 @@
       <td></td>
       <td>
         <div class="btn-group-vertical pull-right" role="group" aria-label="...">
-          <a href='#' class="btn btn-default btn-xs"><i class="glyphicon glyphicon-pencil"></i></a>
+          <a href='erp1' class="btn btn-default btn-xs"><i class="glyphicon glyphicon-pencil"></i></a>
           <a href='#' class="btn btn-default btn-xs"><i class="glyphicon glyphicon-minus-sign"></i></a>
           <a href='frp2' class="btn btn-success btn-xs"><i class="glyphicon glyphicon-share-alt"></i> Lidik</a>
         </div>

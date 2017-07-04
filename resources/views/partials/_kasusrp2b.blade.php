@@ -5,7 +5,7 @@
     Tindakan <span class="caret"></span>
   </button>
   <ul class="dropdown-menu">
-    <li><a href="#" class="text-right">Edit &nbsp;&nbsp;<i class="glyphicon glyphicon-pencil"></i></a></li>
+    <li><a href="erp2" class="text-right">Edit &nbsp;&nbsp;<i class="glyphicon glyphicon-pencil"></i></a></li>
     <li><a href="frp2" class="text-right">Sprint Lidik &nbsp;&nbsp;<i class="glyphicon glyphicon-plus text-red"></i></a></li>
     <li><a href="geledah" class="text-right">Sprint Geledah &nbsp;&nbsp;<i class="glyphicon glyphicon-plus text-red"></i></a></li>
     <li role="separator" class="divider"></li>

@@ -14,84 +14,84 @@
 
 @section('materi')
 
-        <div class="row">
-					<div class="col-lg-4 col-md-4 col-sm-12">
-						<!-- Judul Surat -->
-						<div class="form-group">
-							<label>Judul Kasus: </label>
-							<input type="text" class="form-control" placeholder="ANIM PARIATUR CLICHE REPREHENDERIT">
-						</div>
-					</div>			
+<div class="row">
+	<div class="col-lg-4 col-md-4 col-sm-12">
+		<!-- Judul Surat -->
+		<div class="form-group">
+			<label>Judul Kasus: </label>
+			<input type="text" class="form-control" placeholder="ANIM PARIATUR CLICHE REPREHENDERIT">
+		</div>
+	</div>			
 
-					<div class="col-lg-4 col-md-4 col-sm-12">
-						<!-- Tanggal Surat -->
-						<div class="form-group">
-							<label>Tanggal</label>
-							<div class="input-group date">
-								<div class="input-group-addon">
-									<i class="fa fa-calendar"></i>
-								</div>
-								<input type="date" class="form-control pull-right" id="datepicker">
-							</div>
-							<!-- /.input group -->
-						</div>
-						<!-- /.form group -->
-					</div>
-					<div class="col-lg-4 col-md-4 col-sm-12">
-						<!-- No. Surat -->
-						<div class="form-group">
-							<label> No. Surat</label>
-							<input type="text" class="form-control" placeholder="PRINT-">
-						</div>
-					</div>
-					<div class="col-lg-8 col-md-8 col-sm-12">
-						<label>Kasus Posisi</label>
-						<form>
-							<textarea id="editor1" name="editor" rows="10" cols="120">
-								Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
-							</textarea>
-						</form>
-					</div>
-					<div class="col-lg-4 col-md-4 col-sm-12">
-						<label>Status</label>
-						<div class="input-group">
-							<div class="input-group-btn"> 
-								<button type="button" class="btn btn-default" aria-label="stop" title="DIHENTIKAN"><span class="glyphicon glyphicon-minus-sign"></span> </button>
-								<button type="button" class="btn btn-default" aria-label="transfer" title="DIALIHKAN"><span class="glyphicon glyphicon-transfer"></span></button> </div> 
-								<input class="form-control" aria-label="Text input with multiple buttons" placeholder="Keterangan Status...">
-							</div>
+	<div class="col-lg-4 col-md-4 col-sm-12">
+		<!-- Tanggal Surat -->
+		<div class="form-group">
+			<label>Tanggal</label>
+			<div class="input-group date">
+				<div class="input-group-addon">
+					<i class="fa fa-calendar"></i>
+				</div>
+				<input type="date" class="form-control pull-right" id="datepicker">
+			</div>
+			<!-- /.input group -->
+		</div>
+		<!-- /.form group -->
+	</div>
+	<div class="col-lg-4 col-md-4 col-sm-12">
+		<!-- No. Surat -->
+		<div class="form-group">
+			<label> No. Surat</label>
+			<input type="text" class="form-control" placeholder="PRINT-">
+		</div>
+	</div>
+	<div class="col-lg-8 col-md-8 col-sm-12">
+		<label>Kasus Posisi</label>
+		<form>
+			<textarea id="editor1" name="editor" rows="10" cols="120">
+				Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+			</textarea>
+		</form>
+	</div>
+	<div class="col-lg-4 col-md-4 col-sm-12">
+		<label>Status</label>
+		<div class="input-group">
+			<div class="input-group-btn"> 
+				<button type="button" class="btn btn-default" aria-label="stop" title="DIHENTIKAN"><span class="glyphicon glyphicon-minus-sign"></span> </button>
+				<button type="button" class="btn btn-default" aria-label="transfer" title="DIALIHKAN"><span class="glyphicon glyphicon-transfer"></span></button> </div> 
+				<input class="form-control" aria-label="Text input with multiple buttons" placeholder="Keterangan Status...">
+			</div>
 
-							<!-- Disposisi / Petunjuk -->
-							<div class="form-group">
-								<label>Disposisi / Petunjuk</label>
-								<textarea class="form-control" rows="6" placeholder="Enter ..."></textarea>
-							</div>
-						</div>
-					</div>
-					<div class="rows"> 
-						<div class="col-lg-6 col-md-6 col-sm-12">
-							<!-- Print Lid -->
-							<h4>Data Terlapor</h4>
-							<!-- Institusi / Lembaga -->
-							<div class="form-group">
-								<label>Institusi / Lembaga</label>
-								<input type="text" class="form-control" placeholder="Enter ...">
-							</div>
-							<!-- Nama Lengkap -->
-							<div class="form-group">
-								<label>Nama Lengkap</label>
-								<textarea class="form-control" rows="1" placeholder="Enter ..."></textarea>
-							</div>
-							<!-- Jabatan Resmi -->
-							<div class="form-group">
-								<label>Jabatan Resmi</label>
-								<input type="text" class="form-control" placeholder="Enter ...">
-							</div>
-							<!-- Jabatan Lain -->
-							<div class="form-group">
-								<label>Jabatan Lain</label>
-								<input type="text" class="form-control" placeholder="Enter ...">
-							</div>
+			<!-- Disposisi / Petunjuk -->
+			<div class="form-group">
+				<label>Disposisi / Petunjuk</label>
+				<textarea class="form-control" rows="6" placeholder="Enter ..."></textarea>
+			</div>
+		</div>
+	</div>
+	<div class="rows"> 
+		<div class="col-lg-6 col-md-6 col-sm-12">
+			<!-- Print Lid -->
+			<h4>Data Terlapor</h4>
+			<!-- Institusi / Lembaga -->
+			<div class="form-group">
+				<label>Institusi / Lembaga</label>
+				<input type="text" class="form-control" placeholder="Enter ...">
+			</div>
+			<!-- Nama Lengkap -->
+			<div class="form-group">
+				<label>Nama Lengkap</label>
+				<textarea class="form-control" rows="1" placeholder="Enter ..."></textarea>
+			</div>
+			<!-- Jabatan Resmi -->
+			<div class="form-group">
+				<label>Jabatan Resmi</label>
+				<input type="text" class="form-control" placeholder="Enter ...">
+			</div>
+			<!-- Jabatan Lain -->
+			<div class="form-group">
+				<label>Jabatan Lain</label>
+				<input type="text" class="form-control" placeholder="Enter ...">
+			</div>
 		<!-- 
 						Pendidikan
 						<div class="form-group">
@@ -246,5 +246,8 @@
 @stop
 
 @section('script')
+
+	<!-- Form Kasus Posisi -->
+	<script src='{{ asset('dist/js/kasus_posisi.js') }}'></script>
 
 @endsection
