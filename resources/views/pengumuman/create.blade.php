@@ -16,10 +16,16 @@
 
         <div class="row">
         	<<div class="col-md-8 col-md-offset-2">
-        	<h1>Buat Pengumuman</h1>
+        	<h3>Buat Pengumuman</h3>
         	<hr>
         		{!! Form::open(['route' => 'pengumuman.store']) !!}
     				{{ Form::label('judul', 'Judul')}}
+    				{{ Form::text('title', null, array('class' => 'form-control'))}}
+
+    				{{ Form::label('isi', 'Pengumuman')}}
+    				{{ Form::textarea('isi', null, array('class' => 'form-control'))}}
+
+    				{{ Form::submit('Kirim', array('class' => 'btn btn-success btn-lg btn-block'))}}
 				{!! Form::close() !!}
         	</div>
         </div>

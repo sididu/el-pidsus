@@ -1,5 +1,5 @@
 <h3>
-<a href="home"><img class="push-left" src="dist/img/logo-kejaksaan.png" width="100" class="text-titlecase"></a>
+<a href="home"><img class="push-left" src="{{ asset('dist/img/logokejaksaan.png') }} width="100" class="text-titlecase"></a>
          {{--  @yield('maintitle')
           <small> &nbsp; @yield('mainsubtitle')</small> --}}
 <div class="pull-right">
