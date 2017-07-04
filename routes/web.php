@@ -17,7 +17,23 @@ Route::get('/', function () {
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/home', 'HomeController@index');
+Route::get('/admin', 'HomeController@index');
+Route::get('master_penyidikan', 'HomeController@master_penyidikan');
+Route::get('master_penuntutan', 'HomeController@master_penuntutan');
+
+/*
+|--------------------------------------------------------------------------
+| Kategori Jabatan Tersangka Routes
+|--------------------------------------------------------------------------
+|
+| Here is where you can register web routes for your application. These
+| routes are loaded by the RouteServiceProvider within a group which
+| contains the "web" middleware group. Now create something great!
+|
+*/
+
+Route::get('penyidikan', 'LayoutController@penyidikan');
 
 /*
 |--------------------------------------------------------------------------

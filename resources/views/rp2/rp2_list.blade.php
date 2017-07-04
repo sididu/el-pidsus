@@ -1,29 +1,49 @@
-@extends('adminlte::page')
+@extends('layouts.penyidikan_template')
 
-@section('title', 'Dashboard')
+@section('title', 'Dir.Dik')
 
-@section('content_header')
-    <div><h3><a href="home"><img class="push-left" src="dist/img/logo-kejaksaan.png" width="100"></a>
-  Dashboard
-  <small>Control panel</small>
-</h3>
-</div>
-@stop
+@section('stylesheet')
 
-@section('content')
-<div class="box box-success">
-  <div class="box-header with-border">
-  <h3 class="box-title text-uppercase">DAFTAR Perkara Penyelidikan <small>[RP-2]</small></h3>
-    <div class="pull-right">
-      <a href="frp1" class="btn btn-defaul btn-xs"> Tambah Kasus &nbsp; <span class="glyphicon glyphicon-plus"></span></a>
-    </div>
-  </div>
-  <div class="box-body">
+@endsection
+
+@section('maintitle', 'DIREKTORAT PENYIDIKAN')
+
+@section('mainsubtitle', 'Tindak Pidana Khusus')
+
+@section('judulhalaman', 'DAFTAR PERKARA PENYELIDIKAN')
+
+@section('materi')
 
 
 
 
-    <p class="text-center"><img src="dist/img/UnderConstruct.png" alt=""></p>
+   <div class="table-responsive no-padding">
+              <table class="table table-striped">
+                <tbody><tr>
+                  <th>Kasus</th>
+                </tr>
+                <tr>
+                  <td>
+                  @include('partials._kasusrp2a')
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                  @include('partials._kasusrp2b')
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                  @include('partials._kasusrp2c')
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                  @include('partials._kasusrp2d')
+                  </td>
+                </tr>
+              </tbody></table>
+            </div>
     
 
 
@@ -31,8 +51,8 @@
 
 
 
-  </div>
-  <div class="panel-footer">Panel footer</div>
-</div>
-
 @stop
+
+@section('script')
+
+@endsection
