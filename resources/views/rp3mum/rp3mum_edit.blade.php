@@ -47,9 +47,9 @@
 	<div class="col-lg-8 col-md-8 col-sm-12">
 		<label>Kasus Posisi</label>
 		<form>
-			<textarea id="editor1" name="editor" rows="10" cols="120">
+			<textarea-kasus id="editor1" name="editor" rows="10" cols="120">
 				Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
-			</textarea>
+			</textarea-kasus>
 		</form>
 	</div>
 	<div class="col-lg-4 col-md-4 col-sm-12">
