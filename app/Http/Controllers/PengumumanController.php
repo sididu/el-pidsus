@@ -2,16 +2,19 @@
 
 namespace App\Http\Controllers;
 
-use App\Tabel_Pasal;
 use Illuminate\Http\Request;
 
-class PasalController extends Controller
+class PengumumanController extends Controller
 {
     /**
      * Display a listing of the resource.
      *
      * @return \Illuminate\Http\Response
      */
+    public function index()
+    {
+        //
+    }
 
     /**
      * Show the form for creating a new resource.
@@ -20,7 +23,7 @@ class PasalController extends Controller
      */
     public function create()
     {
-        //
+        return view('pengumuman.create');
     }
 
     /**
@@ -37,10 +40,10 @@ class PasalController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\Tabel_Pasal  $tabel_Pasal
+     * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show(Tabel_Pasal $tabel_Pasal)
+    public function show($id)
     {
         //
     }
@@ -48,10 +51,10 @@ class PasalController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Tabel_Pasal  $tabel_Pasal
+     * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function edit(Tabel_Pasal $tabel_Pasal)
+    public function edit($id)
     {
         //
     }
@@ -60,10 +63,10 @@ class PasalController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Tabel_Pasal  $tabel_Pasal
+     * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Tabel_Pasal $tabel_Pasal)
+    public function update(Request $request, $id)
     {
         //
     }
@@ -71,10 +74,10 @@ class PasalController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Tabel_Pasal  $tabel_Pasal
+     * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Tabel_Pasal $tabel_Pasal)
+    public function destroy($id)
     {
         //
     }
