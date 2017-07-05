@@ -13,6 +13,7 @@
 @section('judulhalaman', 'Register Perkara Penyelidikan')
 
 @section('materi')
+      
 
 <div class="row">
 	<div class="col-lg-4 col-md-4 col-sm-12">
@@ -111,10 +112,31 @@ Kategori Subyek
 		<option>Walikota</option>
 	</select>
 -->
+<!-- text input -->
+	<h4>Data Obyek</h4>
+	<div class="row">
+		<div class="col-lg-6 col-md-6 col-sm-12">
+			<div class="form-group">
+				<label>Obyek Pidana</label>
+				<input type="text" class="form-control" placeholder=" ">
+			</div>
+		</div>
+		<div class="col-lg-6 col-md-6 col-sm-12">
+			<!-- Nilai Anggaran / Kontrak -->
+			<div class="form-group">
+				<label>Nilai Anggaran</label>
+				<div class="input-group">
+					<span class="input-group-addon">Rp</span>
+					<input type="INT" class="form-control" aria-label="dalam Miliar">
+					<span class="input-group-addon">miliar</span>
+				</div>
+			</div>
+		</div>
+	</div>
 </div>
 </div>
 
-<div class="row">
+	<div class="row">
 	<div class="col-lg-6 col-md-6 col-sm-12">
 <!-- 				Tempat Lahir
 				<div class="form-group">
@@ -154,27 +176,7 @@ Kategori Subyek
 -->
 </div>
 <div class="col-lg-6 col-md-6 col-sm-12">
-	<!-- text input -->
-	<h4>Data Obyek</h4>
-	<div class="row">
-		<div class="col-lg-6 col-md-6 col-sm-12">
-			<div class="form-group">
-				<label>Obyek Pidana</label>
-				<input type="text" class="form-control" placeholder=" ">
-			</div>
-		</div>
-		<div class="col-lg-6 col-md-6 col-sm-12">
-			<!-- Nilai Anggaran / Kontrak -->
-			<div class="form-group">
-				<label>Nilai Anggaran</label>
-				<div class="input-group">
-					<span class="input-group-addon">Rp</span>
-					<input type="INT" class="form-control" aria-label="dalam Miliar">
-					<span class="input-group-addon">miliar</span>
-				</div>
-			</div>
-		</div>
-	</div>
+	
 <!-- 				<div class="row">
 <div class="col-lg-6 col-md-6 col-sm-12">
 Kerugian Negarak
@@ -200,54 +202,24 @@ Pemulihan Aset
 </div>
 </div> -->
 </div>
-<div class="box-body">
+<div>
 	<div class="col-lg-6 col-md-6 col-sm-12">
 		<h4>Data Jaksa</h4>
-		<div class="form-group">
-			<label>Jaksa Koordinator</label>
-			<select class="form-control" >
-				<option selected="selected">Riki Indera</option>
-				<option>Akbar Permana</option>
-				<option>Ade Pudjasari</option>
-				<option>Tonny Soerojo</option>
-				<option>Anastasia</option>
-				<option>John Laksmana</option>
-				<option>Shannine Davita</option>
-			</select>
+		<div align="center" class="thumbnail">
+		@include('partials._timjaksa')
 		</div>
-
-		<!-- /.col -->
-
-		<div class="form-group">
-			<label>Jaksa Anggota</label>
-			<select class="form-control select2" multiple="multiple" data-placeholder="Pilih anggota...">
-				<option>Akbar Permana</option>
-				<option>Ade Pudjasari</option>
-				<option>Tonny Soerojo</option>
-				<option>Anastasia</option>
-				<option>John Laksmana</option>
-				<option>Akbar Permana</option>
-				<option>Ade Pudjasari</option>
-				<option>Tonny Soerojo</option>
-				<option>Anastasia</option>
-				<option>John Laksmana</option>
-				<option>Shannine Davita</option>
-				<option>Shannine Davita</option>
-			</select>
-		</div>
-
-		<div class="box-tools pull-right">
+	<div class="box-tools pull-right">
 			<a href="rp1" class="btn btn-danger"> BATAL</a>
 			<a href="rp2" class="btn btn-success"> KIRIM</a>
 		</div>
 	</div>
 </div>
-      
+</div>
 @stop
 
 @section('script')
 
 	<!-- Form Kasus Posisi -->
-	<script src='{{ asset('dist/js/kasus_posisi.js') }}'></script>
+	<script src='{{ asset('js/kasus_posisi.js') }}'></script>
 
 @endsection

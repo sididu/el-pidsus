@@ -1,5 +1,4 @@
-<div class="box box-default">
-  <div class="box-header with-border">
+
    <!-- Small boxes (Stat box) -->
    <div class="row">
     <div class="col-lg-3 col-xs-6">
@@ -57,7 +56,7 @@
         <div class="icon">
           <i class="fa fa-odnoklassniki"></i>
         </div>
-        <a href="rt1" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
+        <a href="subyek" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
       </div>
     </div>
     <!-- ./col -->

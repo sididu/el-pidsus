@@ -16,19 +16,18 @@
       <ul class="nav navbar-nav">
         <li><a href="rp1">PENYIDIKAN</a></li>
         <li class="active"><a href="master_penuntutan">PENUNTUTAN</a></li>
- <!--               <li><a href="#">EKSEKUSI</a></li>
-         -->       
+        <li class="disabled"><a href="#">EKSEKUSI</a></li>
+               
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Profil</a></li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Wilayah Hukum <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="#">Kejaksaan Agung</a></li>
+            <li><a href="#">Indonesia</a></li>
             <li role="separator" class="divider"></li>
-            <li><a href="#">Kejaksaan Tinggi DKI</a></li>
-            <li><a href="#">Kejaksaan Tinggi Bali</a></li>
-            <li><a href="#">Kejaksaan Tinggi Kalimantan Timur</a></li>
+            <li><a href="#">DKI JAKARTA</a></li>
+            <li><a href="#">BALI</a></li>
+            <li><a href="#">KALIMANTAN TIMUR</a></li>
           </ul>
         </li>
         <!-- Authentication Links -->
@@ -42,6 +41,7 @@
                                 </a>
 
                                 <ul class="dropdown-menu" role="menu">
+                                <li><a href="#">Profil</a></li>
                                     <li>
                                         <a href="{{ route('logout') }}"
                                             onclick="event.preventDefault();

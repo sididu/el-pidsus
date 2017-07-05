@@ -34,7 +34,7 @@
   </div>
   <!-- /.info-box -->
   <div class="info-box bg-red">
-    <span class="info-box-icon"><i class="ion ion-ios-cloud-download-outline"></i></span>
+    <span class="info-box-icon"><i class="fa fa-cubes"></i></span>
 
     <div class="info-box-content">
       <span class="info-box-text">Barang Sitaan</span>

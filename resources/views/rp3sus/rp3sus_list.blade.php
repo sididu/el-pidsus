@@ -56,6 +56,6 @@
 @section('script')
 
   <!-- Form Kasus Posisi -->
-  <script src='{{ asset('dist/js/kasus_posisi.js') }}'></script>
+  <script src='{{ asset('js/kasus_posisi.js') }}'></script>
 
 @endsection

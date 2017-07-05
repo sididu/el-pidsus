@@ -137,7 +137,6 @@ return [
 
     'providers' => [
 
-        JeroenNoten\LaravelAdminLte\ServiceProvider::class,
 
         /*
          * Laravel Framework Service Providers...

@@ -18,7 +18,6 @@
 
 
 
-
 <div class="table table-responsive">
 <table class="table table-striped">
   <thead>

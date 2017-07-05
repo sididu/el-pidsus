@@ -48,28 +48,17 @@
 <!-- /.form group -->
 <div class="form-group">
   <label>Memerintahkan Kepada</label>
-  <select class="form-control select2" multiple="multiple" data-placeholder="Pilih Jaksa...">
-    <option>Akbar Permana</option>
-    <option>Ade Pudjasari</option>
-    <option>Tonny Soerojo</option>
-    <option>Anastasia</option>
-    <option>John Laksmana</option>
-    <option>Akbar Permana</option>
-    <option>Ade Pudjasari</option>
-    <option>Tonny Soerojo</option>
-    <option>Anastasia</option>
-    <option>John Laksmana</option>
-    <option>Shannine Davita</option>
-    <option>Shannine Davita</option>
-  </select>
+    <div align="center" class="thumbnail">
+    @include('partials._timjaksa')
+    </div>
 </div>
+</div>
+<div class="col-lg-8 col-md-8 col-sm-12">
 <!-- Melakukan Tindakan -->
 <div class="form-group">
   <label> Melakukan Tindakan</label>
   <input type="text" class="form-control" placeholder="...">
 </div>
-</div>
-<div class="col-lg-8 col-md-8 col-sm-12">
 
  <!-- Membuat Berita Acara -->
  <div class="form-group">
@@ -89,7 +78,7 @@
 </div>
 
 <div class="box-tools pull-right">
- <a href="frb1" class="btn btn-danger"> BATAL</a>
+ <a href="obyek" class="btn btn-danger"> BATAL</a>
  <a href="obyek" class="btn btn-success"> KIRIM</a>
 </div>
 </div>
@@ -101,6 +90,6 @@
 
 
             <!-- Form Kasus Posisi -->
-            <script src='{{ asset('dist/js/kasus_posisi.js') }}'></script>
+            <script src='{{ asset('js/kasus_posisi.js') }}'></script>
 
 @endsection

@@ -203,38 +203,9 @@
 	<div class="box-body">
 		<div class="col-lg-6 col-md-6 col-sm-12">
 			<h4>Data Jaksa</h4>
-			<div class="form-group">
-				<label>Jaksa Koordinator</label>
-				<select class="form-control" >
-					<option selected="selected">Riki Indera</option>
-					<option>Akbar Permana</option>
-					<option>Ade Pudjasari</option>
-					<option>Tonny Soerojo</option>
-					<option>Anastasia</option>
-					<option>John Laksmana</option>
-					<option>Shannine Davita</option>
-				</select>
-			</div>
-
-			<!-- /.col -->
-
-			<div class="form-group">
-				<label>Jaksa Anggota</label>
-				<select class="form-control select2" multiple="multiple" data-placeholder="Pilih anggota...">
-					<option>Akbar Permana</option>
-					<option>Ade Pudjasari</option>
-					<option>Tonny Soerojo</option>
-					<option>Anastasia</option>
-					<option>John Laksmana</option>
-					<option>Akbar Permana</option>
-					<option>Ade Pudjasari</option>
-					<option>Tonny Soerojo</option>
-					<option>Anastasia</option>
-					<option>John Laksmana</option>
-					<option>Shannine Davita</option>
-					<option>Shannine Davita</option>
-				</select>
-			</div>
+		<div align="center" class="thumbnail">
+		@include('partials._timjaksa')
+		</div>
 
 			<div class="box-tools pull-right">
 				<a href="rp2" class="btn btn-danger"> BATAL</a>
@@ -247,6 +218,6 @@
 @section('script')
 
 	<!-- Form Kasus Posisi -->
-	<script src='{{ asset('dist/js/kasus_posisi.js') }}'></script>
+	<script src='{{ asset('js/kasus_posisi.js') }}'></script>
 
 @endsection
