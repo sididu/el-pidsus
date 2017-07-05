@@ -22,6 +22,8 @@ Route::get('/admin', 'HomeController@index');
 Route::get('master_penyidikan', 'HomeController@master_penyidikan');
 Route::get('master_penuntutan', 'HomeController@master_penuntutan');
 
+Route::resource('pengumuman', 'PengumumanController');
+
 /*
 |--------------------------------------------------------------------------
 | Kategori Jabatan Tersangka Routes
@@ -80,11 +82,14 @@ Route::get('erb1', 'ObyekController@erb1');
 |
 */
 
-Route::get('pasal', 'PasalController@index');
+Route::resource('pasal','PasalController');
 
-Route::get('fpasal', 'PasalController@fpasal');
 
-Route::get('epasal', 'PasalController@epasal');
+// Route::get('pasal', 'PasalController@index');
+
+// Route::get('fpasal', 'PasalController@fpasal');
+
+// Route::get('epasal', 'PasalController@epasal');
 
 /*
 |--------------------------------------------------------------------------

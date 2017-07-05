@@ -12,20 +12,6 @@ class PasalController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
-    {
-        return view('pasal.pasal_list');
-    }
-
-    public function fpasal()
-    {
-        return view('pasal.pasal_create');
-    }
-
-    public function epasal()
-    {
-        return view('pasal.pasal_edit');
-    }
 
     /**
      * Show the form for creating a new resource.

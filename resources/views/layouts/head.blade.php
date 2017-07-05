@@ -19,25 +19,29 @@
     <!-- Font-Awesome -->
     <link href="{{asset('css/font-awesome.css')}}" type="text/css">
 
-    
 
 
     <!-- Bootstrap 3.3.6 -->
-    <link rel="stylesheet" href="{{ asset('dist/css/bootstrap.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('dist/css/bootstrap-theme.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/bootstrap-theme.min.css') }}">
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="{{ asset('dist/css/font-awesome.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/font-awesome.min.css') }}">
     <!-- Ionicons -->
-    <link rel="stylesheet" href="{{ asset('dist/css/ionicons.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/ionicons.min.css') }}">
     <!-- Theme style -->
-    <link rel="stylesheet" href="{{ asset('dist/css/AdminLTE.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/AdminLTE.css') }}">
 
 
 
     <!-- TinyMCE -->
-    <script src='{{ asset('dist/js/tinymce/tinymce.min.js') }}'></script>
+    <script src='{{ asset('js/tinymce/tinymce.min.js') }}'></script>
 
-  
+    <!-- JQuery -->
+    <script src='{{ asset('plugins/jQuery/jquery-2.2.3.min.js') }}'></script>
+    <script src="{{asset('js/jquery.min.js')}}"></script>
+
+
+
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>

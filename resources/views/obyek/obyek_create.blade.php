@@ -4,6 +4,7 @@
 
 @section('stylesheet')
 
+
 @endsection
 
 @section('maintitle', 'DIREKTORAT PENYIDIKAN')
@@ -19,7 +20,7 @@
    <!-- select -->
    <div class="form-group">
     <label>Surat Perintah</label>
-    <select class="form-control">
+    <select class="form-control" disabled="disabled">
       <option>PEMERIKSAAN SURAT</option>
       <option>PENGGELEDAHAN</option>
       <option>PENYITAAN</option>
@@ -31,7 +32,7 @@
   <!-- No. Surat -->
   <div class="form-group">
    <label> No. Surat</label>
-   <input type="text" class="form-control" placeholder="PRINT-">
+   <input type="text" class="form-control" placeholder="PRINT-"  disabled="disabled">
  </div>
  <!-- Tanggal Surat -->
  <div class="form-group">
@@ -40,7 +41,7 @@
     <div class="input-group-addon">
      <i class="fa fa-calendar"></i>
    </div>
-   <input type="date" class="form-control pull-right" id="datepicker">
+   <input type="date" class="form-control pull-right" id="datepicker"  disabled="disabled">
  </div>
  <!-- /.input group -->
 </div>
@@ -76,7 +77,7 @@
    <form>
     <textarea-kasus id="editor1" name="editor" rows="3" cols="120">
       Benda Sitaan :
-    </textarea-kasus>	
+    </textarea-kasus> 
   </form>
 </div>
 <div class="form-group">
@@ -98,7 +99,8 @@
 
 @section('script')
 
-  <!-- Form Kasus Posisi -->
-  <script src='{{ asset('dist/js/kasus_posisi.js') }}'></script>
+
+            <!-- Form Kasus Posisi -->
+            <script src='{{ asset('dist/js/kasus_posisi.js') }}'></script>
 
 @endsection
