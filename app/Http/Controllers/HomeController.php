@@ -25,6 +25,11 @@ class HomeController extends Controller
     {
         return view('home');
     }
+
+    public function carousel()
+    {
+        return view('carousel');
+    }
   
 
     public function master_penyidikan()
