@@ -28,9 +28,10 @@
   @include('layouts.footer')
 </div><!-- /.wrapper -->
 
+<!-- JQuery -->
+    <script src='{{ asset('plugins/jQuery/jquery-3.2.1.min.js') }}'></script>    
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
     <!-- Include all compiled plugins (below), or include individual files as needed -->
   <!-- Latest compiled and minified JavaScript -->
     <script src="{{ asset('js/bootstrap.js') }}"></script>

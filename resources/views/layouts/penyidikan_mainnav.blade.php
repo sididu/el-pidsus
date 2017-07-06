@@ -8,7 +8,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="home">el-<strong>PID</strong>SUS</a>
+    <a href="home" class="navbar-bramd"><img src="dist/img/logo-kejaksaan-small.png"></a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->

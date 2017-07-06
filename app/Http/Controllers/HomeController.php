@@ -26,9 +26,9 @@ class HomeController extends Controller
         return view('home');
     }
 
-    public function carousel()
+    public function trial()
     {
-        return view('carousel');
+        return view('trial');
     }
   
 

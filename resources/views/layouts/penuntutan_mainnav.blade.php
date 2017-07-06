@@ -8,7 +8,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="home">el-<strong>PID</strong>SUS</a>
+    <a href="home"><img src="dist/img/logo-kejaksaan-small.png"></a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -16,7 +16,9 @@
       <ul class="nav navbar-nav">
         <li><a href="rp1">PENYIDIKAN</a></li>
         <li class="active"><a href="master_penuntutan">PENUNTUTAN</a></li>
+        <li class="disabled"><a href="#">UPAYA HUKUM</a></li>
         <li class="disabled"><a href="#">EKSEKUSI</a></li>
+        <li class="disabled"><a href="#">EKSAMINASI</a></li>
                
       </ul>
       <ul class="nav navbar-nav navbar-right">

@@ -32,12 +32,10 @@
     <link rel="stylesheet" href="{{ asset('css/AdminLTE.css') }}">
 
 
-
     <!-- TinyMCE -->
     <script src='{{ asset('js/tinymce/tinymce.min.js') }}'></script>
 
-    <!-- JQuery -->
-    <script src='{{ asset('plugins/jQuery/jquery-2.2.3.min.js') }}'></script>
+    
 
 
 

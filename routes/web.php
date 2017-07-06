@@ -19,7 +19,7 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index');
 Route::get('/admin', 'HomeController@index');
-Route::get('/carousel', 'HomeController@carousel');
+Route::get('/trial', 'HomeController@trial');
 Route::get('master_penyidikan', 'HomeController@master_penyidikan');
 Route::get('master_penuntutan', 'HomeController@master_penuntutan');
 
