@@ -13,6 +13,7 @@
 html,
 body {
   height: 100%;
+  padding-bottom: 70px;
 }
 .layout-boxed html,
 .layout-boxed body {

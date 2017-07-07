@@ -59,6 +59,15 @@
                 text-decoration: none;
                 text-transform: uppercase;
             }
+			   .links > a {
+                color: #636b6f;
+                padding: 0 25px;
+                font-size: 12px;
+                font-weight: 600;
+                letter-spacing: 1rem;
+                text-decoration: none;
+                text-transform: uppercase;
+            }
 
             .m-b-md {
                 margin-bottom: 30px;
@@ -80,12 +89,12 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                <img class="pull-right" src="dist/img/logo-kejaksaan.png" height="200"><br>
+                <img class="pull-right" src="dist/img/logo-kejaksaan.png" height="150"><br>
                     el-PIDSUS
                 </div>
 
                 <div class="links">
-                SISTEM ELEKTRONIK TINDAK PIDANA KHUSUS
+                <span>S I S T E M&nbsp;&nbsp;&nbsp;E L E K T R O N I K&nbsp;&nbsp;&nbsp;T I N D A K&nbsp;&nbsp;&nbsp;P I D A N A&nbsp;&nbsp;&nbsp;K H U S U S</span>
  {{--                    <a href="https://laravel.com/docs">Documentation</a>
                     <a href="https://laracasts.com">Laracasts</a>
                     <a href="https://laravel-news.com">News</a>

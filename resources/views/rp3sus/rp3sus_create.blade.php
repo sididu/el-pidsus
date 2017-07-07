@@ -136,44 +136,12 @@
 				<!-- /.widget-user -->
 			</div>
 			<div class="col-lg-6 col-md-6 col-xs-12">
-					<h4>DATA Pengacara</h4>
-					<div class="form-group">
-						<label>Pengacara Koordinator</label>
-						<select class="form-control" >
-							<option selected="selected">Riki Indera</option>
-							<option>Akbar Permana</option>
-							<option>Ade Pudjasari</option>
-							<option>Tonny Soerojo</option>
-							<option>Anastasia</option>
-							<option>John Laksmana</option>
-							<option>Shannine Davita</option>
-						</select>
-					</div>
+			<h3>
+				Data Jaksa 
+			</h3>
+			@include('partials._timjaksa')
 
-					<!-- /.col -->
 
-					<div class="form-group">
-						<label>Pengacara Anggota</label>
-						<select class="form-control select2" multiple="multiple" data-placeholder="Pilih anggota...">
-							<option>Akbar Permana</option>
-							<option>Ade Pudjasari</option>
-							<option>Tonny Soerojo</option>
-							<option>Anastasia</option>
-							<option>John Laksmana</option>
-							<option>Akbar Permana</option>
-							<option>Ade Pudjasari</option>
-							<option>Tonny Soerojo</option>
-							<option>Anastasia</option>
-							<option>John Laksmana</option>
-							<option>Shannine Davita</option>
-							<option>Shannine Davita</option>
-						</select>
-					</div>
-
-					<div class="box-tools pull-right">
-						<a href="rp3mum" class="btn btn-danger"> BATAL</a>
-						<a href="rp3sus" class="btn btn-success"> KIRIM</a>
-					</div>
 				</div>
 				</div><!-- ./row -->
 </div>

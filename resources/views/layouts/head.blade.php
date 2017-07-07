@@ -16,9 +16,9 @@
 
     @yield('stylesheet')
 
+
     <!-- Font-Awesome -->
     <link href="{{asset('css/font-awesome.css')}}" type="text/css">
-
 
 
     <!-- Bootstrap 3.3.6 -->

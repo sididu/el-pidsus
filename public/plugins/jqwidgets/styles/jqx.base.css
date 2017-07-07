@@ -4762,12 +4762,12 @@ ol li .jqx-listmenu-item-label:before
 {
   color: #ffffff  !important;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25)  !important;
-  background-color: #84CF96  !important;
-  *background-color: #84CF96  !important;
-    border-left-color: #009A31 !important;
-    border-right-color: #009A31 !important;
-    border-top-color: #009A31 !important;
-    border-bottom-color: #009A31 !important;
+  background-color: #337ab7  !important;
+  *background-color: #337ab7  !important;
+    border-left-color: #2e6da4 !important;
+    border-right-color: #2e6da4 !important;
+    border-top-color: #2e6da4 !important;
+    border-bottom-color: #2e6da4 !important;
 }
 .jqx-primary:hover,
 .jqx-primary:focus,
