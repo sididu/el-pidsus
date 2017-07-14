@@ -8,6 +8,11 @@ use App\Subyek;
 
 class Kasus extends Model
 {
+    const STATUS_BARU = 1; // muncul di RP1
+    const STATUS_DIALIHKAN = 2; // arsip, harus isi disposisi
+    const STATUS_DITERUSKAN = 3; // default, muncul selain dari RP1
+    const STATUS_DIHENTIKAN = 4; // arsip, harus isi disposisi
+
     protected $table = 'kasus';
 
     protected $fillable = [
@@ -32,11 +37,13 @@ class Kasus extends Model
         'tanggal_surat_pelapor',
         'tanggal_surat_diterima',
         'pembuat_catatan_surat',
+        'tanggal_rp2',
+        'no_surat_rp2',
     ];
 
-    public function obyeks()
+    public function obyek()
     {
-        return $this->belongsToMany(Obyek::class, 'kasus_obyek', 'kasus_id', 'obyek_id');
+        return $this->hasOne(Obyek::class, 'kasus_id');
     }
 
     public function subyeks()

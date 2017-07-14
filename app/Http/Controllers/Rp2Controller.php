@@ -3,17 +3,19 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Kasus;
 
 class Rp2Controller extends Controller
 {
 		public function index()
 		{
-		    return view('rp2.rp2_list');
+            $cases = Kasus::where('status', Kasus::STATUS_DITERUSKAN)->get();
+		    return view('rp2.rp2_list', ['cases' => $cases]);
 		}
 
-		public function frp2()
+		public function frp2(Kasus $case)
 		{
-		    return view('rp2.rp2_create');
+		    return view('rp2.rp2_create', ['case' => $case]);
 		}
 
 		public function erp2()

@@ -6,6 +6,10 @@ use Illuminate\Database\Eloquent\Model;
 
 class Subyek extends Model
 {
+    const STATUS_TERLAPOR = 1;
+    const STATUS_TERSANGKA = 2;
+    const STATUS_TAHANAN = 3;
+
     protected $table = 'subyek';
     protected $fillable = [
         'judul_surat',
@@ -22,6 +26,8 @@ class Subyek extends Model
         'kategori_subyek',
         'keterangan',
         'status',
+        'no_surat_rp2',
+        'tanggal_rp2'
     ];
 
 }

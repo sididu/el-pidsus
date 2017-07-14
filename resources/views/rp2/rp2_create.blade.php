@@ -20,7 +20,7 @@
 		<!-- Judul Surat -->
 		<div class="form-group">
 			<label>Judul Kasus: </label>
-			<input type="text" class="form-control" placeholder="ANIM PARIATUR CLICHE REPREHENDERIT">
+            <input type="text" class="form-control" placeholder="ANIM PARIATUR CLICHE REPREHENDERIT" value="{{$case->judul_kasus}}">
 		</div>
 	</div>			
 
@@ -32,7 +32,7 @@
 				<div class="input-group-addon">
 					<i class="fa fa-calendar"></i>
 				</div>
-				<input type="date" class="form-control pull-right" id="datepicker">
+                <input name="tanggal_rp2" type="date" class="form-control pull-right" id="datepicker" value="{{ $case }}">
 			</div>
 			<!-- /.input group -->
 		</div>
@@ -46,12 +46,10 @@
 		</div>
 	</div>
 	<div class="col-lg-8 col-md-8 col-sm-12">
-		<label>Kasus Posisi</label>
-		<form>
-			<textarea-kasus id="editor1" name="editor" rows="10" cols="120">
-				Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
-			</textarea-kasus>
-		</form>
+		<label>Kasus 
+            Posisi</label>
+        <textarea id="editor1" name="kasus_posisi" rows="10" cols="120"> {{ $case->kasus_posisi }}</textarea>
+
 	</div>
 	<div class="col-lg-4 col-md-4 col-sm-12">
 		<label>Status</label>

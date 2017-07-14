@@ -17,33 +17,24 @@
 
 
 
-   <div class="table-responsive no-padding">
-              <table class="table table-striped">
-                <tbody><tr>
-                  <th>Kasus</th>
+    <div class="table-responsive no-padding">
+        <table class="table table-striped">
+            <tbody><tr>
+                    <th>Kasus</th>
                 </tr>
+                @forelse ($cases as $case)
                 <tr>
-                  <td>
-                  @include('partials._kasusrp2a')
-                  </td>
+                    <td>
+                        @include('partials._kasusrp2', ['case' => $case])
+                    </td>
                 </tr>
+            @empty
                 <tr>
-                  <td>
-                  @include('partials._kasusrp2b')
-                  </td>
+                    <td>No data.</td>
                 </tr>
-                <tr>
-                  <td>
-                  @include('partials._kasusrp2c')
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                  @include('partials._kasusrp2d')
-                  </td>
-                </tr>
-              </tbody></table>
-            </div>
+            @endforelse
+        </tbody></table>
+    </div>
     
 
 

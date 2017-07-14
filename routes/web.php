@@ -104,6 +104,8 @@ Route::resource('pasal','PasalController');
 */
 
 Route::get('rp1', 'Rp1Controller@index');
+Route::get('rp1/{kasus}/lidik', 'Rp1Controller@lidik');
+Route::post('rp1/{kasus}/lidik', 'Rp1Controller@lidikStore');
 
 Route::get('frp1', 'Rp1Controller@frp1');
 Route::post('frp1', 'Rp1Controller@frp1Store');
@@ -123,7 +125,7 @@ Route::get('erp1', 'Rp1Controller@erp1');
 
 Route::get('rp2', 'Rp2Controller@index');
 
-Route::get('frp2', 'Rp2Controller@frp2');
+Route::get('frp2/{kasus}', 'Rp2Controller@frp2');
 
 Route::get('erp2', 'Rp2Controller@erp2');
 
