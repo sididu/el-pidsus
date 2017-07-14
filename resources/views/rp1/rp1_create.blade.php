@@ -13,7 +13,6 @@
 @section('judulhalaman', 'Tambah Laporan Kasus')
 
 @section('materi')
-
 <div class="row">
 	<div class="col-lg-4 col-md-4 col-sm-12">
 		<h4>Data Kasus</h4>
