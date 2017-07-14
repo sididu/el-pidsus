@@ -106,6 +106,7 @@ Route::resource('pasal','PasalController');
 Route::get('rp1', 'Rp1Controller@index');
 
 Route::get('frp1', 'Rp1Controller@frp1');
+Route::post('frp1', 'Rp1Controller@frp1Store');
 
 Route::get('erp1', 'Rp1Controller@erp1');
 
